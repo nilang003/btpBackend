@@ -249,7 +249,7 @@ import numpy as np
 import pandas as pd
 import itertools
 import csv
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
